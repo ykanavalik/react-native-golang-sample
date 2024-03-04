@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/yauheni.kanavalik/writings/golang_android/modules/golang-calculator/android"
+    name=":golang-calculator"
+    type="LIBRARY"
+    maven="expo.modules.golangcalculator:golang-calculator:"
+    agpVersion="8.1.1"
+    buildFolder="build"
+    bootClassPath="/Users/yauheni.kanavalik/Library/Android/sdk/platforms/android-34/android.jar:/Users/yauheni.kanavalik/Library/Android/sdk/build-tools/33.0.1/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

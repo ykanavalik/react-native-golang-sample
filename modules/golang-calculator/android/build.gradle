@@ -87,6 +87,7 @@ repositories {
 }
 
 dependencies {
+  implementation(name: 'mycalculator', ext: 'aar')
   implementation project(':expo-modules-core')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
 }

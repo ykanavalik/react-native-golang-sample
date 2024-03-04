@@ -2,6 +2,7 @@ package expo.modules.golangcalculator
 
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
+import mycalculator.Mycalculator
 
 class GolangCalculatorModule : Module() {
   // Each module class must implement the definition function. The definition consists of components
@@ -23,7 +24,9 @@ class GolangCalculatorModule : Module() {
 
     // Defines a JavaScript synchronous function that runs the native code on the JavaScript thread.
     Function("hello") {
-      "Hello world! 👋"
+      var sum = Mycalculator.add(1, 2)
+
+      "The result of 1 + 2 is $sum"
     }
 
     // Defines a JavaScript function that always returns a Promise and whose native code

@@ -1,0 +1,28 @@
+/Users/yauheni.kanavalik/writings/golang_android/modules/golang-calculator/android/build.gradle:92: Warning: A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.8.10 is available: 1.9.10 [GradleDependency]
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/yauheni.kanavalik/writings/golang_android/modules/golang-calculator/android/src/main/java/expo/modules/golangcalculator/GolangCalculatorView.kt:7: Warning: Custom view GolangCalculatorView is missing constructor used by tools: (Context) or (Context,AttributeSet) or (Context,AttributeSet,int) [ViewConstructor]
+class GolangCalculatorView(context: Context, appContext: AppContext) : ExpoView(context, appContext)
+      ~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ViewConstructor":
+   Some layout tools (such as the Android layout editor) need to find a
+   constructor with one of the following signatures:
+   * View(Context context)
+   * View(Context context, AttributeSet attrs)
+   * View(Context context, AttributeSet attrs, int defStyle)
+
+   If your custom view needs to perform initialization which does not apply
+   when used in a layout editor, you can surround the given code with a check
+   to see if View#isInEditMode() is false, since that method will return false
+   at runtime but true within a user interface editor.
+
+0 errors, 2 warnings

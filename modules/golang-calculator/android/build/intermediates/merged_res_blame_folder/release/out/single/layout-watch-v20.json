@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "expo.modules.golangcalculator.golang-calculator-appcompat-1.6.1-19:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "expo.modules.golangcalculator.golang-calculator-appcompat-1.6.1-19:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

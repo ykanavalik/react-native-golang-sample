@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/yauheni.kanavalik/.gradle/caches/transforms-3/f7dbbbc453ac84f8e1f55ee9b7498bc2/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "expo.modules.golangcalculator.golang-calculator-mergeReleaseResources-23:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/yauheni.kanavalik/.gradle/caches/transforms-3/f7dbbbc453ac84f8e1f55ee9b7498bc2/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/layout-v21/notification_action_tombstone.xml",
+        "source": "expo.modules.golangcalculator.golang-calculator-core-1.12.0-9:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/layout-v21/notification_action.xml",
+        "source": "expo.modules.golangcalculator.golang-calculator-core-1.12.0-9:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/layout-v21/notification_template_custom_big.xml",
+        "source": "expo.modules.golangcalculator.golang-calculator-core-1.12.0-9:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "expo.modules.golangcalculator.golang-calculator-merged_res-25:/layout-v21/notification_template_icon_group.xml",
+        "source": "expo.modules.golangcalculator.golang-calculator-core-1.12.0-9:/layout-v21/notification_template_icon_group.xml"
+    }
+]

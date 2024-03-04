@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.1" type="incidents">
+
+    <incident
+        id="ViewConstructor"
+        severity="warning"
+        message="Custom view `GolangCalculatorView` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`">
+        <location
+            file="${:golang-calculator*debug*sourceProvider*0*javaDir*0}/expo/modules/golangcalculator/GolangCalculatorView.kt"
+            line="7"
+            column="7"
+            startOffset="157"
+            endLine="7"
+            endColumn="27"
+            endOffset="177"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.8.10 is available: 1.9.10">
+        <location
+            file="${:golang-calculator*projectDir}/build.gradle"
+            line="92"
+            column="18"
+            startOffset="2089"
+            endLine="92"
+            endColumn="81"
+            endOffset="2152"/>
+    </incident>
+
+</incidents>
